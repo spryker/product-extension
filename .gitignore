@@ -8,31 +8,13 @@
 *.AppleDouble
 *.AppleDB
 *.AppleDesktop
-Temporary Items
-.apdisk
-GPATH
-GRTAGS
-GTAGS
 
 # OS
 .DS_Store
 
-# vagrant stuff
-.vagrant
-
-# profiling
-/profiler
-
-npm-debug.log
-Bundles/*/tests/_output
-Bundles/SecuritySystemUser/tests/SprykerTest/SecuritySystemUser/_support/_generated
-
-# assets
-.sass-cache
-dist/
-node_modules/
-/static/public/
-yarn.lock
-/vendor/*
-composer.phar
+/vendor
 composer.lock
+.phpunit.result.cache
+
+/tests/_output/*
+!/tests/_output/.gitkeep
